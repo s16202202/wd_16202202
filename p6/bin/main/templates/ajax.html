@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html lang="zh" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="utf-8">
+<meta name="viewport"
+	content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Aone Platform</title>
+<link rel="stylesheet"
+	th:href="@{webjars/bootstrap/4.3.1/css/bootstrap.min.css}" />
+<link rel="stylesheet" th:href="@{/css/style.css}" />
+</head>
+<body>
+<nav class="navbar navbar-dark bg-dark shadow">
+	<a class="navbar-brand" href="#">Web高级编程教学网站</a>
+	<div>
+		<input id="num" type="text"/>
+		<input id="btn" class="text-success bg-dark" type="button" value="search"/>
+	</div>
+</nav>
+
+<div class="container-fluid mt-5 col-md-7">
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<h3 style="color:#006403">
+				<span id="tit">主题6</span>
+			</h3>
+		</div>
+		<hr>
+		<div class="panel-body">
+			<p style="color:#006403"><span id="msg">Jquery</span></p>
+		</div>
+	</div> 
+</div>
+<script type="text/javascript"
+	th:src="@{webjars/jquery/3.0.0/jquery.min.js}"></script>
+<script type="text/javascript"
+	th:src="@{webjars/bootstrap/4.3.1/js/bootstrap.min.js}"></script>
+<script type="text/javascript"
+	th:src="@{/js/task.js}"></script>
+</body>
+</html>
